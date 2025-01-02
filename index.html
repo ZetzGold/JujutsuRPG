@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/java.js"></script>
+    <title>Jujutsu RPG</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="menu_skills">
+            <img src="./imgs/katana.png" id="menu_icone">
+            <text class="menu_titulo">Habilidades (Energia Amaldicoada)</text>
+            <text class="menu_txt hab1">Corte Silencioso</text>
+            <text class="menu_txt hab2">Lâmina do Éter</text>
+            <text class="menu_txt hab3">Passiva: Elo da Lâmina Eterna</text>
+            <text class="menu_titulo">Habilidades (Energia Amaldicoada Reversa)</text>
+            <text class="menu_txt habr1">Corte Despótico</text>
+            <text class="menu_titulo">Expansao de Dominio</text>
+            <text class="menu_txt exp">Caminho das Lâminas Invisíveis</text>
+
+            <div id="menu_sair" onclick="fecharMenu()">X</div>
+        </div>
+
+        <div id="fundo_menu"></div>
+
+        <img src="imgs/dojo.jpg" id="fundo">
+        
+        <div id="sombras">
+            <div class="shadow sd1"></div>
+            <div id="sobreposicao">
+            </div>
+            <div class="shadow sd4"></div>
+        </div>
+        
+        <div id="menu">
+            <div id="logo">
+                <text id="logo_txt">Jujutsu Kaisen - RPG</text>
+            </div>
+            <div id="options_btn">
+                <div id="botao" onclick="abrirMenu()">
+                    <img src="./imgs/katana.png" id="botao_icon">
+                </div>
+            </div>
+        </div>
+
+        <div id="corpo">
+            <div class="btn">
+                <div class="forma botao_voltar" onclick="voltar()">
+                    <img src="./imgs/arrow2.png" class="btn_icone">
+                </div>
+            </div>
+            <div id="info1">
+                <text class="idade_txt">17 anos (2007)</text>
+                <text class="nome_txt">Zephy Nullus</text>
+                <text class="classe_txt">Espadachim focado em Furtividade</text>
+            </div>
+            <div id="character">
+                <img src="imgs/ch1.png" id="character_img">
+            </div>
+            <div id="info2">
+                <text class="descricao_txt">Zephy cresceu em um dojo, treinando sob um mestre que o desprezava. O mestre traiu e matou sua família, e Zephy, ao sobreviver, percebeu que força era sinônimo de controle sobre a vida. Determinado a ser forte, ele focou no treino físico e adotou a furtividade como seu estilo de luta, inspirado por uma frase de seu pai: "Quem não pode ser visto, torna-se invencível." Entrou para a escola de jujutsu, aprimorando suas habilidades e transformando sua katana em extensão de sua vontade.</text>
+                <text class="vicio_txt">Vicio(s): Whiskey</text>
+            </div>
+            <div class="btn">
+                <div class="forma botao_avancar" onclick="avancar()">
+                    <img src="./imgs/arrow1.png" class="btn_icone">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
