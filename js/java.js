@@ -146,9 +146,9 @@ function trocarDados(novoValor) {
         },
         {
             idade: "21 anos (2003)",
-            nome: "Paulin Bacana",
+            nome: "Ze Silva",
             classe: "Lutador de Boxing",
-            descricao: "o cara luta.",
+            descricao: "Após aceitar uma missão solo misteriosa, ele retornou gravemente alterado, com uma restrição celestial forçada que limitou seus poderes. Para piorar, perdeu todas as memórias de sua vida e de seus feitos heroicos. Agora, Ze luta para reconstruir sua identidade enquanto busca respostas sobre o que aconteceu naquela missão. Cada pista descoberta revela fragmentos de um passado sombrio que ele nem sabia possuir.",
             vicio: "Luta",
             imagem: "imgs/ch6.png",
             fundo: "imgs/boxing.jpg",
